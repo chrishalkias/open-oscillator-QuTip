@@ -11,3 +11,4 @@ This repository was reated for (mostly jupyter notebooks) concerning my thesis f
 - [ ] Coupled Harmonic Oscillators
 - [ ] Harmonic oscillator coupled with bath (Lindbaldian)
 - [ ] Modeling with qubits
+- [ ] Add a binder
