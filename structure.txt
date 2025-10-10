@@ -1,0 +1,30 @@
+.
+├── assets
+│   ├── 3osc_mc.png
+│   ├── 3osc_me.png
+│   ├── decay_corr.png
+│   ├── decay.png
+│   ├── final_detector.png
+│   ├── final_five.png
+│   ├── final_system.png
+│   ├── final.png
+│   ├── init_detector.png
+│   ├── init_system.png
+│   ├── init.png
+│   ├── initial_five.png
+│   ├── mc_vs_me.png
+│   ├── preview.png
+│   ├── thermal_cor.png
+│   └── thermal.png
+├── Notebooks
+│   ├── Coupled_Harmonic_Oscillators.ipynb
+│   ├── More_coupled_Harmonic_Oscillators .ipynb
+│   ├── N_Harmonic_Oscillators.ipynb
+│   ├── Thermalization.ipynb
+│   └── Three_oscillators_monte_carlo.ipynb
+├── README.md
+├── requirements.txt
+├── scan_nb.py
+└── structure.txt
+
+3 directories, 25 files

@@ -1,0 +1,7 @@
+math
+matplotlib==3.9.4
+mpl_toolkits
+numpy==2.0.2
+qutip==4.5.0
+sympy==1.13.1
+time
