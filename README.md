@@ -6,8 +6,35 @@ This repository contains jupyter notebooks with simulations of coupled harmonic 
 The project probes the dissipative dynamics of systems interacting with the following Hamiltonian
 
 $$
-H = \hbar\omega \sum_n  
+H = \hbar\omega \sum_n  a^\dagger_n a_n + gH_\text{int}
 $$
+where $H_\text{int}$ is a bipartite interaction term between two modes 
+$$
+H_\text{int} = a_n \otimes a_m^\dagger + a^\dagger_n \otimes a_m
+$$
+
+This Hamiltonian is analogus to the [Jaynes Cummings Hamiltonian](https://en.wikipedia.org/wiki/Jaynes%E2%80%93Cummings_model).
+
+This system is simulated in the following 3 scenarios:
+
+- Two harmonic oscillators in zero temperature
+
+- 5 harmonic oscillators, where 2 are considered the bipartite system and the rest 3 the "environment"
+
+-One harmonic oscillator decaying in a thermal environment. The environment here is approximated by a master equation (see below).
+
+- Two harmonic oscillators interacting in a $T\neq0$ environment under the Lindblad master equation
+
+$$
+L
+$$
+
+-Two harmonic oscillators interacting in an environment of $N$ other harmonic oscillators. When $N$ is taken to be large (~$100$) it is shown that memory usages of classical computers are not enough.
+
+
+
+
+
 
 ### Interaction of two harmonic oscillators in $T=0$
 <table>
@@ -77,16 +104,12 @@ $$
 
 
 ## Additional information
+
+<p align="center">
+<img src="assets/preview.png" alt="alt text" width="200"/>
+</p>
+
 These notebooks were part of my thesis for my undergraduate diploma in physics, supervised by prof. Anastasios Petkou. The general subject of my thesis was Quantum Mechanics with an interest in the measurement problem and the dynamics of open systems. An online version of the draft can be found [here](https://ikee.lib.auth.gr/record/335194/files/Chalkias.pdf).
 
-## Harmonic Oscillators
 
-++
 
-**~Job list**
-
-- [x] Create a repo
-- [ ] Coupled Harmonic Oscillators
-- [ ] Harmonic oscillator coupled with bath (Lindbaldian)
-- [ ] Modeling with qubits
-- [ ] Add a binder
