@@ -1,6 +1,19 @@
 # Open Harmonic oscillator dynamics
 This repository contains jupyter notebooks with simulations of coupled harmonic oscillators using [QuTip](https://github.com/qutip/qutip).
 
+
+
+- [Project description](#About-the-project)
+  - [Two open oscillators](#interaction-of-two-harmonic-oscillators-at)
+  - [Three open oscillators and monte carlo](#monte-carlo-and-three-oscillators-at)
+  - [$N$ open oscillators](#more-oscillators-at)
+  - [Dephrasing in a $T\neq0$ environment](#one-oscillator-at)
+  - [Husimi Q estimate](#extracting-the-state)
+
+- [Code description](#about-the-code)
+  - [Instalation](#installation)
+  - [Code structure](#file-structure)
+- [Additional Information](#additional-information)
 ## About the project
 
 The project probes the dissipative dynamics of systems interacting with the following Hamiltonian
@@ -32,7 +45,7 @@ $$
 - Two harmonic oscillators interacting in an environment of $N$ other harmonic oscillators. When $N$ is taken to be large (~$100$) it is shown that memory usages of classical computers are not enough.
 
 
-### Interaction of two harmonic oscillators in $T=0$
+### Interaction of two harmonic oscillators at $T=0$
 
 Here a scenario of quantum systems interaction is explored. Assuming one has access to a measuring quantum system that has been prepared in an eigenstate of the number operator $N = a^\dagger a$ one can use the interaction Hamiltonian to measure an unknown system in a superposition of number states, here taken to be a coherent state.
 
@@ -201,8 +214,18 @@ Lastly, finite difference methods are employed to extract the Hushimi-Q function
 
 
 ## About the code
-The repository structure is as follows:
+
+### Installation
+
+You can clone the repository via
+
+```bash
+git clone https://github.com/chrishalkias/qonnect
 ```
+
+### File Structure
+The repository structure is as follows:
+```sv
 .
 ├── assets
 │   ├── 3osc_mc.png
@@ -223,7 +246,7 @@ The repository structure is as follows:
 │   └── thermal.png
 ├── Notebooks
 │   ├── Coupled_Harmonic_Oscillators.ipynb
-│   ├── More_coupled_Harmonic_Oscillators .ipynb
+│   ├── More_coupled_Harmonic_Oscillators.ipynb
 │   ├── N_Harmonic_Oscillators.ipynb
 │   ├── Q_estimate.ipynb
 │   ├── Thermalization.ipynb
