@@ -39,7 +39,7 @@ This system is simulated in the following 3 scenarios:
 - Two harmonic oscillators interacting in a $T\neq0$ environment under the Lindblad master equation
 
 $$
-{\displaystyle {\dot {\rho }}=-{i \over \hbar }[H,\rho ]+\sum _{i}^{}\gamma _{i}\left(L_{i}\rho L_{i}^{\dagger }-{\frac {1}{2}}\left\{L_{i}^{\dagger }L_{i},\rho \right\}\right)}
+{\displaystyle {\dot {\rho }}=-{i \over \hbar }[H,\rho ]+\sum _{i}(^{}\gamma _{i}L_{i}\rho L_{i}^{\dagger }-{\frac {1}{2}}L_{i}^{\dagger }L_{i},\rho})
 $$
 
 - Two harmonic oscillators interacting in an environment of $N$ other harmonic oscillators. When $N$ is taken to be large (~$100$) it is shown that memory usages of classical computers are not enough.
