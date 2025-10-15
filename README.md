@@ -195,6 +195,9 @@ The same dephrasing appears when the oscillator is submerged in a more energetic
   </tr>
 </table>
 
+### Extracting the state
+
+Lastly, finite difference methods are employed to extract the Hushimi-Q function of the harmonic oscillator in the `/Notebooks/Q-estimate.ipynb` file.
 
 
 ## About the code
@@ -222,6 +225,7 @@ The repository structure is as follows:
 │   ├── Coupled_Harmonic_Oscillators.ipynb
 │   ├── More_coupled_Harmonic_Oscillators .ipynb
 │   ├── N_Harmonic_Oscillators.ipynb
+│   ├── Q_estimate.ipynb
 │   ├── Thermalization.ipynb
 │   └── Three_oscillators_monte_carlo.ipynb
 ├── README.md
@@ -230,7 +234,7 @@ The repository structure is as follows:
 └── structure.txt
 ```
 
-The code contains 3 different Jupyter notebooks concerning the simulation of the harmonic oscillator bath. As an extra there exists a simple python script to extract dependencies from jupyter notebooks. There is another notebook, one employing finite difference methods to extract an estimate of the Husimi-Q function of the system. This has been lost somewhere in my filesystem and await to be rescued.
+The code contains 6 different Jupyter notebooks concerning the simulation of the harmonic oscillator bath. As an extra there exists a simple python script to extract dependencies from jupyter notebooks.
 
 
 ## Additional information
