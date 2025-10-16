@@ -32,17 +32,15 @@ This system is simulated in the following 3 scenarios:
 
 - Two harmonic oscillators in zero temperature
 
-- 5 harmonic oscillators, where 2 are considered the bipartite system and the rest 3 the "environment"
+- Two harmonic oscillators interacting in an environment of $N$ other harmonic oscillators. When $N$ is taken to be large (~$100$) it is shown that memory usages of classical computers are not enough.
 
-- piOne harmonic oscillator decaying in a thermal environment. The environment here is approximated by a master equation (see below).
+- One harmonic oscillator decaying in a thermal environment. The environment here is approximated by a master equation (see below). The [Husimi function](https://en.wikipedia.org/wiki/Husimi_Q_representation) of the system is approximated using numerical
 
 - Two harmonic oscillators interacting in a $T\neq0$ environment under the Lindblad master equation
 
 $$
 {\displaystyle {\dot {\rho }}=-{i \over \hbar }[H,\rho ]+\sum _{i}(^{}\gamma _{i}L_{i}\rho L_{i}^{\dagger }-{\frac {1}{2}}L_{i}^{\dagger }L_{i},\rho})
 $$
-
-- Two harmonic oscillators interacting in an environment of $N$ other harmonic oscillators. When $N$ is taken to be large (~$100$) it is shown that memory usages of classical computers are not enough.
 
 
 ### Interaction of two harmonic oscillators at $T=0$
@@ -69,6 +67,7 @@ It is shown that after some interaction time, both systems end up in a superpose
 
 Below are the occupational probabilities and phase space representations of the initial and final states of the two systems.
 
+<div style="border:2px solid blue; padding:10px">
 <table>
   <tr>
     <td align="center">
@@ -98,6 +97,7 @@ Below are the occupational probabilities and phase space representations of the 
     </td>
   </tr>
 </table>
+</div>
 
 ### Monte carlo and three oscillators at $T=0$ 
 
@@ -176,6 +176,7 @@ OverflowError: value too large
 
 Since one cannot arbitrarily increase the number of oscillators to simulate a reservoir, this would be intractable, one resorts to solving the Lindblad master equation. In `Notebooks/Thermalization.ipynb` it is shown how a single mode experiences energy decay and dephrasing in a thermal environment
 
+<div style="border:2px solid green; padding:10px">
 <table>
   <tr>
     <td align="center">
@@ -207,6 +208,7 @@ The same dephrasing appears when the oscillator is submerged in a more energetic
     </td>
   </tr>
 </table>
+</div>
 
 ### Extracting the state
 
