@@ -227,7 +227,7 @@ git clone https://github.com/chrishalkias/qonnect
 
 ### File Structure
 The repository structure is as follows:
-```sv
+```tree
 .
 ├── assets
 │   ├── 3osc_mc.png
