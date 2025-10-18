@@ -1,4 +1,14 @@
 # Open Harmonic oscillator dynamics
+
+<div align='center'>
+
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?logo=jupyter&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![LaTeX](https://img.shields.io/badge/LaTeX-008080?logo=latex&logoColor=white)
+![QuTiP](https://img.shields.io/badge/QuTiP-000000?logo=python&logoColor=white)
+
+</div>
+
 This repository contains jupyter notebooks with simulations of coupled harmonic oscillators using [QuTip](https://github.com/qutip/qutip).
 
 
